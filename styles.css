@@ -69,7 +69,7 @@
     text-align:center ;
     font-family:"Comic Sans MS", "Comic Sans", cursive;
     font-weight: 900;
-    font-size: medium;
+    font-size: x-large;
 
 }
 .body img{
@@ -84,8 +84,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.bodytext h1,h2{ 
-    font-size: x-large;
+.bodytext h1,.bodytext h2{ 
+    font-size: xx-large;
     color:#e3e8c8;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     -webkit-text-stroke: black;
@@ -118,26 +118,7 @@
     font-weight: 900;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-.pic{
-    display: flex;
-    flex-direction: column;
-font-family: "Comic Sans MS", "Comic Sans", cursive;  
-padding: 10vh;
-}
-.members{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 60vh;
-    max-width: 100vw; 
-    background-position: center;
-    background-size: cover;
-    text-align:center;
-}
-.pic h1{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;  
-    font-size:large;
-}
+
 .maincontentbody{
     display:flex;
     align-items: flex-start;
@@ -157,17 +138,39 @@ padding: 10vh;
     opacity:1;
    margin: 1px;
    font-weight:700;
-   padding: 100px;
+   padding: 25vh;
+   border-radius: 10vh;
+   margin: 5vh;
 }
 .quallink a:hover,.quanlink a:hover{
     text-decoration: none;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size:medium;
     border: 1px solid black;
-    background-color:#FFBD59;
+    background-color:#FFF6EA;
     transition:0.4s;
     opacity:1;
    margin: 1px;
    font-weight:700;
+   margin: 5vh;
 
+}
+.members{
+    display: flex;
+    margin-top: 25vh;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+font-family: "Comic Sans MS", "Comic Sans", cursive;  
+padding: 10vh;
+}
+
+.pic h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;  
+    font-size:large;
+    text-align: center;
+}
+.pic h2{
+    text-align: center;
 }
